@@ -1,20 +1,19 @@
-# Bun 
+# Bun
 
-## Research Profile
+## Research Focus
 
-I study symbol emergence, world models, and representation geometry. My research focuses on how continuous sensory dynamics are transformed into latent structure, and how latent structure can support discrete symbolic representations. I am particularly interested in piecewise-linear dynamics, geometric analysis of neural representations, and mechanism-level explanations of abstraction.
-
-## Research Interests
-
-- Symbol emergence and cognitive systems
-- World models and latent dynamics
-- Neural representation geometry: PCA/SVD, Jacobians, and ReLU regions
-- Mechanistic analysis of abstraction and representation formation
+I study how continuous sensory dynamics give rise to structured latent representations and symbolic abstraction. My work focuses on symbol emergence, world models, and representation geometry, with particular interest in piecewise‑linear dynamics, ReLU regions, and mechanism‑level explanations of abstraction.
 
 ## Representative Project
 
 **symbol-emergence-1d**  
-A compact world-model experiment that examines 1D latent dynamics, representation geometry, and symbol boundaries in a controlled setting.
+A compact world-model study of symbol emergence in a 1D bouncing-ball environment.
+
+- Latent dynamics analysis in a controlled setting
+- PCA/SVD and Jacobian-based representation geometry
+- Latent-only clustering and symbolic state-machine construction
+
+This project serves as a minimal testbed for understanding how discrete symbolic regimes emerge from continuous latent dynamics.
 
 [Project Repository](https://github.com/Hikarli/symbol-emergence-world-models)
 
@@ -27,8 +26,10 @@ A compact world-model experiment that examines 1D latent dynamics, representatio
 - `cs-systems-notes` — systems fundamentals
 - `jrpg-battle-design` — emergent mechanics in game systems
 
-## Research Direction
+## Future Directions
 
-My current work is centered on minimal, interpretable experiments that clarify how symbolic structure emerges from continuous representations. Planned extensions include 2D environments, GridWorlds, multimodal world models, and richer symbolic interactions.
+- Extend the experiment to 2D environments and GridWorlds.
+- Study multimodal world models and richer latent structure.
+- Investigate hierarchical symbolic organization and interaction.
 
-The repositories below reflect ongoing exploratory work in these directions.
+These directions aim to build a systematic research pipeline from minimal environments to richer symbolic structures.
